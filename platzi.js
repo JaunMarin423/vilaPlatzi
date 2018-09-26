@@ -59,16 +59,16 @@ function dibujar()
     for (var v = 0; v < cantidad; v++) {
       var x = aleatorio (0, 20);
       var y = aleatorio (0, 20);
-      var x = x * 20;
-      var y = y * 20;
+      var x = x * 30;
+      var y = y * 30;
       papel.drawImage(vaca.objeto, x,y);
     }
     if (cerdo.cargaOK) {
       for (var c = 0; c < cantidad; c++) {
-        var x = aleatorio (0, 20);
-        var y = aleatorio (0, 20);
-        var x = x * 20;
-        var y = y * 20;
+        var x = aleatorio (0, 2);
+        var y = aleatorio (0, 2);
+        var x = x * 5;
+        var y = y * 5;
         papel.drawImage(cerdo.objeto, x,y);
       }
     }
